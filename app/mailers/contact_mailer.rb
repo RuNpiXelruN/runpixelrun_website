@@ -3,8 +3,8 @@ class ContactMailer < ActionMailer::Base
     
     def contact_email(contact)
         @contact = contact
-        
-        mail(from: @contact.email, subject: 'New contact form message').deliver
+
+        mail(from: @contact.email, subject: 'Contact Form Message').deliver
     end
     
 end

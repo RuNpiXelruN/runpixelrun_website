@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
   
-  resources :contacts
+  resources :contacts, only: [:create, :new]
   
   root 'contacts#new'
   

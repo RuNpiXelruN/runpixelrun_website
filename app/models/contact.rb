@@ -8,5 +8,4 @@ class Contact < ActiveRecord::Base
         def send_email
             ContactMailer.contact_email(self).deliver
         end
-    
 end
