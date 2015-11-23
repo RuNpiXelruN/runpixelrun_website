@@ -2,6 +2,8 @@ Rails.application.routes.draw do
   
   resources :contacts, only: [:create, :new]
   
+  get '/home', to: 'pages#home'
+  
   root 'contacts#new'
   
   # The priority is based upon order of creation: first created -> highest priority.

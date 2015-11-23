@@ -1,0 +1,96 @@
+
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    margin: 0 0 0 0px;
+    padding: 0;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.container {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+.hero-container {
+    background: url('/assets/Hero-BG.png') no-repeat;
+    height: 99vw;
+    background-size: 100vw;
+    position: relative;
+    
+    .company-name, .title1, .company-description {
+        color: white;
+        text-transform: uppercase;
+        text-align: center;
+        position: absolute;
+    }
+    .company-name {
+        top: 25vw;
+        left: 42vw;
+        font-size: 5vw;
+        margin: 0;
+    }
+    .company-description {
+        top: 37vw;
+        left: 43vw;
+        font-size: 2vw;
+        margin: 0;
+    }
+    .full-stack-line {
+        position:absolute;
+        top: 0vw;
+        left: 0vw;
+        
+        .full-stack-box {
+            position: relative;
+            
+            .horiz-line-1, .title1, .horiz-line-2 {
+                position: absolute;
+                
+            }
+            .horiz-line-1 {
+                top: 33.4vw;
+                left: 42.9vw;
+                height: 0.25vw;
+            }
+            .horiz-line-2 {
+                top: 33.4vw;
+                left: 66.6vw;
+                height: 0.25vw;
+            }
+            .title1 {
+                top: 32.4vw;
+                left: 54.1vw;
+                font-size: 2vw;
+                margin: 0;
+            }
+        }
+    }
+    
+    // .title1 {
+    //     top: 30.5vw;
+    //     left: 51vw;
+    //     font-size: 3vw;
+    // }
+    .company-description {
+        top: 37vw;
+        left: 43vw;
+        font-size: 2vw;
+    }
+    .scrolling-box {
+        background: white;
+        height: 3vw;
+        left: 51vw;
+        top: 43vw;
+        width: 17vw;
+        position: absolute;
+        border-radius: 1vw;
+    }
+}
