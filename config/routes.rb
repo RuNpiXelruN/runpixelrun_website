@@ -4,7 +4,14 @@ Rails.application.routes.draw do
   
   get '/home', to: 'pages#home'
   
-  root 'contacts#new'
+  get '/process', to: 'pages#process_page'
+  
+  root 'pages#home'
+  
+  
+  get '/emailtest_homepage', to: 'pages#emailtest_homepage'
+  
+  get '/emailtest_partnerpage', to: 'pages#emailtest_partnerpage'
   
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

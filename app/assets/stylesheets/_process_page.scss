@@ -1,0 +1,119 @@
+html {
+    height: 101vh;
+}
+
+body {
+    height: 101vh;
+    width: 100vw;
+    overflow: hidden;
+}
+
+container {
+    width: 100%;
+}
+
+
+
+.process-section {
+    height: 100vw;
+    position: relative;
+
+    .process-title {
+        position: absolute;
+        top: 7vw;
+        left: 7vw;
+
+        .process-section-header {
+            font-size: 8vw;
+            display: block;
+            text-transform: uppercase;
+        }
+    }
+
+    .monster-img-section {
+        width: 100vw;
+        height: 31vw;
+        position: absolute;
+        top: 27vw;
+        left: 1vw;
+        
+        img {
+            width: 25vw;
+        }
+        
+        .monster-1 {
+            display: inline-block;
+            position: relative;
+            width: 24vw;
+            height: inherit;
+            
+            .monster-concept {
+                position: absolute;
+                top: -2vw;
+                left: 1vw;
+            }
+            .monster-1-text {
+                position: absolute;
+                text-transform: uppercase;
+                text-align: center;
+                font-size: 1.7vw;
+                top: 23vw;
+                left: 9vw;
+            }
+        }
+        .monster-2 {
+            display: inline-block;
+            position: relative;
+            width: 24vw;
+            height: inherit;
+            
+            img.monster-rails {
+                position: absolute;
+            }
+            .monster-2-text {
+                position: absolute;
+                text-transform: uppercase;
+                font-size: 1.7vw;
+                text-align: center;
+                top: 23vw;
+                left: 2.5vw;
+            }
+        }
+        .monster-3 {
+            display: inline-block;
+            position: relative;
+            width: 24vw;
+            height: inherit;
+            
+            .monster-animation {
+                position: absolute;
+            }
+            .monster-3-text {
+                position: absolute;
+                top: 23vw;
+                text-align: center;
+                font-size: 1.7vw;
+                text-transform: uppercase;
+                left: 4vw;
+            }
+        }
+        .monster-4 {
+            display: inline-block;
+            position: relative;
+            width: 24vw;
+            height: inherit;
+            
+            .monster-deploy {
+                width: 21vw;
+                position: absolute;
+            }
+            .monster-4-text {
+                position: absolute;
+                top: 23vw;
+                text-transform: uppercase;
+                font-size: 1.7vw;
+                left: 5vw;
+            }
+        }
+    }
+}
